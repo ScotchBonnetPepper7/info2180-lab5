@@ -1,1 +1,78 @@
 /* Add your own styles */
+
+/* Header of the Website */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 180px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: grey;
+}
+
+/*Styling the picture of the earth in the header*/
+.map {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/*Stlying the search area*/
+#controls {
+    display: column;
+    flex-direction: row; 
+    height: 150px;
+    background-color: rgb(181, 215, 226);
+    padding-bottom: 10px;
+}
+
+/*Styling the searchbox*/
+#controls #country {
+    height: 35px;
+    width: 300px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 530px;
+}
+
+/*Styling the lookup button*/
+#lookup { 
+    background-color:green;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    margin-top: 50px;
+    margin-top: 15px;
+    margin-left: 530px;
+    font-weight: bold;
+}
+
+#lookupCities { 
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    margin-top: 15px;
+    margin-left: 700px;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(1) {
+    background-color: yellow;
+}
+
+tr:nth-child(even) {
+    background-color: #cfc0c0;
+}
